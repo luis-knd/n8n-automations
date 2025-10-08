@@ -1,0 +1,42 @@
+# ── Sistema / OS
+.DS_Store
+Thumbs.db
+
+# ── Entorno / secretos
+.env
+.env.local
+secrets/
+!secrets/.gitkeep
+
+# ── Backups
+backups/
+!backups/.gitkeep
+
+# ── Logs y artefactos
+*.log
+logs/
+*.tmp
+*.swp
+
+# ── Docker
+.docker/
+docker-compose.override.yml
+
+# ── IDEs / editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ── Python/otros
+__pycache__/
+*.pyc
+.venv/
+.envrc
+
+# ── Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
